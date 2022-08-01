@@ -1,0 +1,358 @@
+/* recipe.css */
+body{
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+div{
+    /* min-width: 350px; */
+    
+
+}
+div.main_body{
+    background-color: aliceblue;
+    /* margin: 50px 100px 50px 100px ; */
+    /* margin-left: 8%; */
+    /* margin-top: 50px; */
+    /* margin-right: 8%; */
+    margin: 0px 8px 80px 8px;
+    /* margin-bottom: 50px; */
+    padding: 10px 8px 30px 8px;
+    box-shadow: 0px 0px 8px 8px rgb(0,0,0,0.1);
+}
+p#category{
+    /* position: relative; */
+    background-color: black;
+    /* width: 8%; */
+    color: white;
+    /* width: 100px;
+    height: 35px;
+     */
+    /* margin: 40% 30%; */
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: -100px; */
+    padding: 20px 30px;
+    
+    display: inline-block;
+    z-index: 100;
+}
+div#category{
+    text-align: center;
+    /* margin-top: 85px; */
+    /* padding-top: 130px; */
+    /* display: inline-block; */
+    /* padding-bottom: 0px; */
+    /* margin-bottom: 0px; */
+    height: 90px;
+    
+    /* background-color: aqua; */
+    
+}
+
+p#description{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+}
+div#description{
+    text-align: center;
+}
+
+div.seperator{
+    height: 2px;
+    width: 40%;
+    background-color: black;
+    display: inline-block;
+}
+div#seperator{
+    text-align: center;
+ 
+
+    /* background-color: aqua; */
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+div#cake_img{
+    text-align: center;
+    position: relative;
+    
+}
+img#cake_img{
+    /* height= 800; */
+    width: 100%;
+    z-index: 3;
+    display: block;
+    /* max-height: 600px; */
+    min-height: 300px;
+    /* object-fit: cover; */
+    background-color: lightgray;
+    box-shadow: 0px 0px 8px 2px rgb(0,0,0,0.6);
+
+}
+table#preparation{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    
+    /* margin-top: -60px; */
+    z-index: 10;
+    bottom: 0;
+    /* left: 40px; */
+    /* border: aquamarine */
+    opacity: 69%;
+    background-color: #6C829D;
+
+}
+table#preparation td{
+    vertical-align: top;
+    color: white;
+    font-size: 12px;
+}
+table#preparation th{
+    vertical-align: bottom;
+    padding-bottom: 8px;
+    color:white;
+    font-size: 14px;
+}
+
+
+div#main-ing-inst{
+    margin-top: 20px;
+    width: 100%;
+    /* background-color: lightblue; */
+
+    overflow-x:auto;
+    box-shadow: 0px 0px 8px 2px rgb(0,0,0,0.6);
+    border-collapse: collapse;
+}
+/* table#ing-inst{
+    border-spacing: 20px 6px;
+    width: 100%;
+    background-color: lightcoral;
+    
+    
+}
+table#ing-inst tr{
+   
+}
+table#ing-inst th{
+    border-bottom: 5px solid #6C829D;
+    padding-bottom: 10px;
+    text-transform:uppercase;
+    font-size: 14px bold;
+
+}
+table#ing-inst td{
+    overflow: auto;
+}
+table#ing-inst td.td-col1{
+    
+    width: 50%;
+    background-color: antiquewhite;
+    
+}
+table#ing-inst td.td-col2{
+    width: 50%;
+} */
+
+div#main-ing-inst h2.headers{
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #6C829D;
+    /* background-color: #8BA1BB; */
+}
+/* h2.headers{
+    text-align: center;
+    background-color: #8BA1BB;
+} */
+
+div.div-col1{
+    width: 100%;
+    /* background-color: lightgoldenrodyellow; */
+    display: inline-block;
+}
+
+div.div-col2{
+    width: 100%;
+    /* background-color: lightcoral; */
+    height: 100%;
+    /* display: inline-block; */
+}
+
+.div-col1 li{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div-col1 li{
+    text-align: center;
+    border: 1px solid #6C829D;
+    width: 80%;
+    padding: 10px 15px;
+    /* border-spacing: 10px 10px; */
+    margin: 10px 0px;
+    list-style: none;
+    font-size: 14px;
+    
+}
+.div-col1 li:hover{
+    border-color: aqua;
+}
+/* .col2 li{
+    text-align: center;
+    border: 1px solid black;
+    width: 80%;
+    padding: 10px 15px;
+
+  
+}
+*/
+
+  /* td.td-col2{
+    position: relative;
+  }
+  div.div-col2{
+    position: absolute;
+    top: 0;
+    
+  } */
+table#instructions{
+    /* margin-top: 0px; */
+
+
+}
+table#instructions td{
+    
+    /* margin-top: 40px;
+    padding-top: 30px; */
+
+
+}
+table#instructions td.number{
+    width: 10px;
+    /* background-color: aqua; */
+    padding-right: 20px;
+    padding-left: 10px;
+}
+table#instructions td{
+    /* padding-bottom: 30px; */
+    margin-bottom: 60px;
+}
+table#instructions tr{
+    margin-top: 30px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    /* height: 100px; */
+}
+
+table#instructions p.div-number{
+    width: 28px;
+    height: 25px;
+    text-align: center;
+    padding-top:8px;
+    background-color: #6C829D;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin: 0;
+  }
+table#instructions td.plain-text{
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* background-color: lightgrey; */
+}
+
+  td.td-col2 table{
+    /* padding-top: -30px; */
+  }
+  /* *{
+    overflow: auto;
+  } */
+
+  @media only screen and (min-width: 768px) {
+    div.main_body{
+        background-color: aliceblue;
+        /* margin: 50px 100px 50px 100px ; */
+        margin-left: 8%;
+        /* margin-top: 50px; */
+        margin-right: 8%;
+        margin-bottom: 50px;
+        /* width: 600px; */
+        padding: 50px;
+        /* margin: 0px 8px 80px 8px;
+        padding: 10px 8px 30px 8px; */
+        box-shadow: 0px 0px 8px 8px rgb(0,0,0,0.1);
+    }
+    table#preparation{
+        position: absolute;
+        width: 100%;
+        height: 80px;
+        
+        /* margin-top: -60px; */
+        z-index: 10;
+        bottom: 0;
+        /* left: 40px; */
+        /* border: aquamarine */
+        opacity: 69%;
+        background-color: #6C829D;
+    
+    }
+    table#preparation td{
+        vertical-align: top;
+        color: white;
+        font-size: 14px;
+    }
+    table#preparation th{
+        vertical-align: bottom;
+        padding-bottom: 8px;
+        color:white;
+        font-size: 18px;
+    }
+    div#main-ing-inst h2.headers{
+        text-align: center;
+        width: 90%;
+        margin-left: 10px;
+        padding-bottom: 5px;
+        border-bottom: 5px solid #6C829D;
+        /* background-color: #8BA1BB; */
+    }
+    /* h2.headers{
+        text-align: center;
+        background-color: #8BA1BB;
+    } */
+    
+    div.div-col1{
+        width: 49%;
+        /* background-color: lightgoldenrodyellow; */
+        display: inline-block;
+    }
+    
+    div.div-col2{
+        width: 49%;
+        /* background-color: lightcoral; */
+        float: right;
+        height: 100%;
+        /* display: inline-block; */
+    }
+    
+  }
+
+  @media only screen and (min-width: 1000px) {
+    div.main_body{
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+
+    }
+}
